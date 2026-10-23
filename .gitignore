@@ -1,3 +1,24 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build output
+build/
+dist/
+
+# Test and tool caches
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.pytest_cache/
+.ruff_cache/
+
+# Personal task data
 tasks.json
